@@ -7,6 +7,6 @@ resource "aws_instance" "srv01" {
   instance_type = "t2.large"
   tags = {
     Name = "terraform-test-server"
-    Env  = ""
+    Env  = "QA"
   }
 }
